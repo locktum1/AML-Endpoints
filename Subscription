@@ -1,0 +1,16 @@
+Subscription
+
+Endpoint: POST subscribePayment
+
+Description: Starts a Stripe subscription using their credit/debit card.
+
+Headers:
+Content-Type: application/json
+
+Request Body:
+{
+  "stripeToken": "d9382jd9238y992fh23", 
+}
+
+Response:
+Status: 200 OK
