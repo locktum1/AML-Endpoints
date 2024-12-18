@@ -1,0 +1,25 @@
+1. User Registration
+
+Endpoint: POST /submit. register
+
+ Description: Registers a new user in the AML system.
+
+Headers:
+Content-Type: application/json
+
+Request Body:
+{
+  "name": "John Doe", 
+  "email": "johndoe@example.com", 
+  "password": "securePassword123", 
+  "dob": "01/01/2000",
+  “usertype”: “user”,
+}
+
+Response:
+Status: 200 OK
+
+Body:
+{
+  "Set-Cookie": "laravel_session=eyJpdiI6IlpVZzBEOVRyL2wvOXN6ODh2d3ZlWGc9PSIsInZhbHVlIjoiQnc2bnlCOE5uOHRQREVQUTUrekV0WGE0bGlNQldRUHJDOXk1djBhOGxGUHZ0QVlYOHo0bElEb3h3Uzk2Rm54WUpzcGVPUmJiLzVOWHU5b1dTbTUvUVg5MGJkNVhJWlRMNm8rMWJMdHh6bTVNM2U4UjVudEpzYi9HYVllR2tNd3ciLCJtYWMiOiIzOGM1Y2Y2ZmY3YjMyYTU5MTUzNGIxNTBhYmUxMWQ4OWY5MTI0ODk3Njc2OGQ4ZGI5YmIzMmI5ODdmNDdkOWJhIiwidGFnIjoiIn0%3D; expires=Thu, 05 Dec 2024 10:53:42 GMT; Max-Age=7200; path=/; httponly; samesite=lax", 
+}
