@@ -2,7 +2,7 @@ User Registration
 
 Endpoint: POST /submit. register
 
- Description: Registers a new user in the AML system.
+Description: Registers a new user in the AML system.
 
 Headers:
 Content-Type: application/json
