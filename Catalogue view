@@ -1,0 +1,8 @@
+Catalogue view
+
+Endpoint: GET /
+
+Description: Displays catalogue view
+
+Response:
+Status: 200 OK
