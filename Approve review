@@ -1,0 +1,16 @@
+Approve review
+
+Endpoint: POST approve.review
+
+Description: Approves review and stores it in review database.
+
+Headers:
+Content-Type: application/json
+
+Request Body:
+{
+  "media_id": "1", 
+}
+
+Response:
+Status: 200 OK
