@@ -1,0 +1,8 @@
+Log out
+
+Endpoint: POST logout
+
+Description: Signs users out of their account.
+
+Response:
+Status: 200 OK
