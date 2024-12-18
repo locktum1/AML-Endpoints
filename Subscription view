@@ -1,0 +1,8 @@
+Subscription view
+
+Endpoint: GET /subscribe
+
+Description: Displays subscription view
+
+Response:
+Status: 200 OK
