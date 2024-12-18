@@ -1,0 +1,8 @@
+Review View
+
+Endpoint: GET /review
+
+Description: Displays reviews for approval view to librarians
+
+Response:
+Status: 200 OK
