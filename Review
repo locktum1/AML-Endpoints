@@ -1,0 +1,20 @@
+Review
+
+Endpoint: POST submit.review
+
+Description: Stores a user-submitted review on a media product.
+
+Headers:
+Content-Type: application/json
+
+Request Body:
+{
+  "rating": "5", 
+  "review": "Great book", 
+  "user_id": "1", 
+  "media_id": "1", 
+  "published_on": "01/01/2024", 
+}
+
+Response:
+Status: 200 OK
