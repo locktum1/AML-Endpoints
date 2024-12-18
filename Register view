@@ -1,0 +1,8 @@
+Register view
+
+Endpoint: GET /Register
+
+Description: Displays register view
+
+Response:
+Status: 200 OK
