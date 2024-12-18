@@ -1,0 +1,8 @@
+Log in view
+
+Endpoint: GET /login
+
+Description: Displays login view
+
+Response:
+Status: 200 OK
