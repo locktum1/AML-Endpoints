@@ -1,0 +1,8 @@
+Media view
+
+Endpoint: GET /media
+
+Description: Displays media view
+
+Response:
+Status: 200 OK
